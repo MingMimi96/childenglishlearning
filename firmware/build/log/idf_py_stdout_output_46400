@@ -1,0 +1,132 @@
+Command: ninja all
+[1/123] Linking C static library esp-idf\word_model\libword_model.a
+[2/123] Linking CXX static library esp-idf\espressif__esp_lvgl_port\liblvgl_port_lib.a
+[3/123] Linking C static library esp-idf\espressif__esp_video\libespressif__esp_video.a
+[4/123] Linking C static library esp-idf\espressif__esp32_p4_function_ev_board\libespressif__esp32_p4_function_ev_board.a
+[5/123] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_str.c.obj
+[6/123] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj
+[7/123] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_int.c.obj
+[8/123] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj
+[9/123] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_utils.c.obj
+[10/123] Building C object esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/protobuf-c/protobuf-c/protobuf-c.c.obj
+[11/123] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj
+[12/123] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rem.c.obj
+[13/123] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_rex.c.obj
+[14/123] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj
+[15/123] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj
+[16/123] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj
+[17/123] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj
+[18/123] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.obj
+[19/123] Building C object esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/arg_lit.c.obj
+[20/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec1.pb-c.c.obj
+[21/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec0.pb-c.c.obj
+[22/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj
+[23/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/constants.pb-c.c.obj
+[24/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec2.pb-c.c.obj
+[25/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj
+[26/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/common/protocomm.c.obj
+[27/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security0.c.obj
+[28/123] Linking C static library esp-idf\protobuf-c\libprotobuf-c.a
+[29/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj
+[30/123] Building C object esp-idf/camera/CMakeFiles/__idf_camera.dir/photo.c.obj
+[31/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj
+[32/123] Building C object esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj
+[33/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj
+[34/123] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj
+[35/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj
+[36/123] Linking C static library esp-idf\console\libconsole.a
+[37/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj
+[38/123] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj
+[39/123] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj
+[40/123] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj
+[41/123] Building C object esp-idf/esp_driver_jpeg/CMakeFiles/__idf_esp_driver_jpeg.dir/jpeg_param.c.obj
+[42/123] Building C object esp-idf/esp_driver_jpeg/CMakeFiles/__idf_esp_driver_jpeg.dir/jpeg_common.c.obj
+[43/123] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj
+[44/123] Building C object esp-idf/esp_driver_jpeg/CMakeFiles/__idf_esp_driver_jpeg.dir/jpeg_parse_marker.c.obj
+[45/123] Building C object esp-idf/cmock/CMakeFiles/__idf_cmock.dir/CMock/src/cmock.c.obj
+[46/123] Linking C static library esp-idf\unity\libunity.a
+[47/123] Building C object esp-idf/esp_driver_jpeg/CMakeFiles/__idf_esp_driver_jpeg.dir/jpeg_emit_marker.c.obj
+[48/123] Building C object esp-idf/esp_driver_jpeg/CMakeFiles/__idf_esp_driver_jpeg.dir/jpeg_encode.c.obj
+[49/123] Building C object esp-idf/esp_driver_jpeg/CMakeFiles/__idf_esp_driver_jpeg.dir/jpeg_decode.c.obj
+[50/123] Building C object esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/common/touch_sens_common.c.obj
+[51/123] Building C object esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/hw_ver3/touch_version_specific.c.obj
+[52/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_dp83848.c.obj
+[53/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_802_3.c.obj
+[54/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj
+[55/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_generic.c.obj
+[56/123] Building C object esp-idf/camera/CMakeFiles/__idf_camera.dir/camera.c.obj
+[57/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_ksz80xx.c.obj
+[58/123] Linking C static library esp-idf\esp_https_server\libesp_https_server.a
+[59/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp_dma.c.obj
+[60/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj
+[61/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp.c.obj
+[62/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_ip101.c.obj
+[63/123] Linking C static library esp-idf\protocomm\libprotocomm.a
+[64/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_rtl8201.c.obj
+[65/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_lan87xx.c.obj
+[66/123] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj
+[67/123] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj
+[68/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp_gpio.c.obj
+[69/123] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj
+[70/123] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_init.c.obj
+[71/123] Linking C static library esp-idf\camera\libcamera.a
+[72/123] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj
+[73/123] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_sha.c.obj
+[74/123] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_crc.c.obj
+[75/123] Generating ../../recognition_cup.json.S
+[76/123] Generating ../../words.json.S
+[77/123] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_common.c.obj
+[78/123] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_elf.c.obj
+[79/123] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/riscv/core_dump_port.c.obj
+[80/123] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_binary.c.obj
+[81/123] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj
+[82/123] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_flash.c.obj
+[83/123] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj
+[84/123] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_transport_httpd.c.obj
+[85/123] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj
+[86/123] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj
+[87/123] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj
+[88/123] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj
+[89/123] Building C object esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj
+[90/123] Building C object esp-idf/speech/CMakeFiles/__idf_speech.dir/speech_stub.c.obj
+[91/123] Linking C static library esp-idf\app_trace\libapp_trace.a
+[92/123] Linking C static library esp-idf\cmock\libcmock.a
+[93/123] Building C object esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj
+[94/123] Building C object esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj
+[95/123] Building C object esp-idf/recognition/CMakeFiles/__idf_recognition.dir/recognition.c.obj
+[96/123] Building ASM object esp-idf/recognition/CMakeFiles/__idf_recognition.dir/__/__/words.json.S.obj
+[97/123] Building ASM object esp-idf/recognition/CMakeFiles/__idf_recognition.dir/__/__/recognition_cup.json.S.obj
+[98/123] Linking C static library esp-idf\esp_driver_jpeg\libesp_driver_jpeg.a
+[99/123] Linking C static library esp-idf\esp_driver_touch_sens\libesp_driver_touch_sens.a
+[100/123] Linking C static library esp-idf\esp_eth\libesp_eth.a
+[101/123] Linking C static library esp-idf\esp_hid\libesp_hid.a
+[102/123] Linking C static library esp-idf\esp_local_ctrl\libesp_local_ctrl.a
+[103/123] Building C object esp-idf/recognition/CMakeFiles/__idf_recognition.dir/word_service.c.obj
+[104/123] Building C object esp-idf/recognition/CMakeFiles/__idf_recognition.dir/mock_provider.c.obj
+[105/123] Building C object esp-idf/word_events/CMakeFiles/__idf_word_events.dir/word_events.c.obj
+[106/123] Linking C static library esp-idf\nvs_sec_provider\libnvs_sec_provider.a
+[107/123] Linking C static library esp-idf\speech\libspeech.a
+[108/123] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj
+[109/123] Linking C static library esp-idf\rt\librt.a
+[110/123] Linking C static library esp-idf\espcoredump\libespcoredump.a
+[111/123] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj
+[112/123] Linking C static library esp-idf\word_events\libword_events.a
+[113/123] Linking C static library esp-idf\recognition\librecognition.a
+[114/123] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\14789\Desktop\ClaudeCodeProgram\childenglishlearning\firmware\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.5.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x2000 C:/Users/14789/Desktop/ClaudeCodeProgram/childenglishlearning/firmware/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5810 bytes. 0x7f0 bytes (8%) free.
+[115/123] Linking C static library esp-idf\mqtt\libmqtt.a
+[116/123] No install step for 'bootloader'
+[117/123] Linking C static library esp-idf\main\libmain.a
+[118/123] Completed 'bootloader'
+[119/123] Generating esp-idf/esp_system/ld/sections.ld
+[120/123] Building C object CMakeFiles/word_explorer.elf.dir/project_elf_src_esp32p4.c.obj
+[121/123] Linking CXX executable word_explorer.elf
+[122/123] Generating binary image from built executable
+esptool.py v4.11.dev1
+Creating esp32p4 image...
+Merged 3 ELF sections
+Successfully created esp32p4 image.
+Generated C:/Users/14789/Desktop/ClaudeCodeProgram/childenglishlearning/firmware/build/word_explorer.bin
+[123/123] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\14789\Desktop\ClaudeCodeProgram\childenglishlearning\firmware\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.5.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/14789/Desktop/ClaudeCodeProgram/childenglishlearning/firmware/build/partition_table/partition-table.bin C:/Users/14789/Desktop/ClaudeCodeProgram/childenglishlearning/firmware/build/word_explorer.bin"
+word_explorer.bin binary size 0x3e930 bytes. Smallest app partition is 0x100000 bytes. 0xc16d0 bytes (76%) free.

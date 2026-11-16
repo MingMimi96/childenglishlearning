@@ -1,0 +1,26 @@
+menu "Word Explorer: recognition"
+
+    choice RECOG_PROVIDER
+        prompt "Recognition provider"
+        default RECOG_PROVIDER_MOCK
+        help
+            MOCK: 使用 shared/mock 下的本地数据，无需网络和 API Key。
+            HTTP: 调用后端 /recognize（第 3 步实现）。
+
+        config RECOG_PROVIDER_MOCK
+            bool "Local mock data"
+    endchoice
+
+    config RECOG_MOCK_DELAY_MS
+        int "Mock recognition delay (ms)"
+        default 2500
+        depends on RECOG_PROVIDER_MOCK
+
+    config RECOG_MOCK_CYCLE_STATES
+        bool "Mock: cycle through ok / blurry / nothing / unsafe / error"
+        default n
+        depends on RECOG_PROVIDER_MOCK
+        help
+            打开后每次拍照依次返回不同状态，用于检查吉祥物错误提示界面。
+
+endmenu

@@ -1,0 +1,50 @@
+{
+  "status": "ok",
+  "objects": [
+    {
+      "word": "cup",
+      "zh": "杯子",
+      "phonetic": "/kʌp/",
+      "partOfSpeech": "noun",
+      "syllables": ["cup"],
+      "bbox": { "x": 0.18, "y": 0.22, "w": 0.34, "h": 0.56 },
+      "attributes": [
+        { "word": "black", "zh": "黑色的", "type": "color", "partOfSpeech": "adjective", "phonetic": "/blæk/", "colorHex": "#2B2B33",
+          "example": { "en": "My cat is black.", "zh": "我的猫是黑色的。" },
+          "related": [ { "word": "white", "zh": "白色的" }, { "word": "red", "zh": "红色的" }, { "word": "blue", "zh": "蓝色的" }, { "word": "brown", "zh": "棕色的" } ] },
+        { "word": "white", "zh": "白色的", "type": "color", "partOfSpeech": "adjective", "phonetic": "/waɪt/", "colorHex": "#FFFFFF",
+          "example": { "en": "The snow is white.", "zh": "雪是白色的。" },
+          "related": [ { "word": "black", "zh": "黑色的" }, { "word": "yellow", "zh": "黄色的" }, { "word": "pink", "zh": "粉色的" }, { "word": "green", "zh": "绿色的" } ] }
+      ],
+      "example": { "en": "I drink milk from my cup.", "zh": "我用杯子喝牛奶。" },
+      "related": [
+        { "word": "mug", "zh": "马克杯" },
+        { "word": "coffee cup", "zh": "咖啡杯" },
+        { "word": "teacup", "zh": "茶杯" },
+        { "word": "glass", "zh": "玻璃杯" },
+        { "word": "bottle", "zh": "瓶子" }
+      ]
+    },
+    {
+      "word": "spoon",
+      "zh": "勺子",
+      "phonetic": "/spuːn/",
+      "partOfSpeech": "noun",
+      "syllables": ["spoon"],
+      "bbox": { "x": 0.6, "y": 0.42, "w": 0.26, "h": 0.4 },
+      "attributes": [
+        { "word": "silver", "zh": "银色的", "type": "color", "partOfSpeech": "adjective", "phonetic": "/ˈsɪlvər/", "colorHex": "#C3CAD4",
+          "syllables": ["sil", "ver"],
+          "example": { "en": "The star is silver.", "zh": "星星是银色的。" },
+          "related": [ { "word": "gold", "zh": "金色的" }, { "word": "gray", "zh": "灰色的" } ] }
+      ],
+      "example": { "en": "I eat soup with a spoon.", "zh": "我用勺子喝汤。" },
+      "related": [
+        { "word": "fork", "zh": "叉子" },
+        { "word": "bowl", "zh": "碗" },
+        { "word": "chopsticks", "zh": "筷子" },
+        { "word": "plate", "zh": "盘子" }
+      ]
+    }
+  ]
+}

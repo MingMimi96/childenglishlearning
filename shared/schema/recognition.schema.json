@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://word-explorer.local/schema/recognition.schema.json",
+  "title": "RecognitionResult",
+  "description": "后端 /recognize 返回给设备的结构（mock 数据同结构）。",
+  "type": "object",
+  "required": ["status", "objects"],
+  "properties": {
+    "status": {
+      "enum": ["ok", "blurry", "nothing", "unsafe"],
+      "description": "blurry=看不清 nothing=没有可识别物体 unsafe=不适宜内容（只返回通用提示）"
+    },
+    "objects": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "allOf": [{ "$ref": "word.schema.json" }],
+        "type": "object",
+        "required": ["word", "zh", "bbox"],
+        "properties": {
+          "bbox": {
+            "type": "object",
+            "description": "归一化坐标 0–1，原点左上",
+            "required": ["x", "y", "w", "h"],
+            "properties": {
+              "x": { "type": "number", "minimum": 0, "maximum": 1 },
+              "y": { "type": "number", "minimum": 0, "maximum": 1 },
+              "w": { "type": "number", "minimum": 0, "maximum": 1 },
+              "h": { "type": "number", "minimum": 0, "maximum": 1 }
+            }
+          },
+          "attributes": { "type": "array", "maxItems": 3, "items": { "$ref": "word.schema.json" } }
+        }
+      }
+    }
+  }
+}

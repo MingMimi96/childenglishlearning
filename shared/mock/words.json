@@ -1,0 +1,91 @@
+{
+  "words": [
+    { "word": "cup", "zh": "杯子", "phonetic": "/kʌp/", "partOfSpeech": "noun", "syllables": ["cup"],
+      "examples": [ { "en": "I drink milk from my cup.", "zh": "我用杯子喝牛奶。" }, { "en": "The cup is on the table.", "zh": "杯子在桌子上。" }, { "en": "Can I have a cup, please?", "zh": "可以给我一个杯子吗？" } ],
+      "related": [ { "word": "mug", "zh": "马克杯" }, { "word": "coffee cup", "zh": "咖啡杯" }, { "word": "teacup", "zh": "茶杯" }, { "word": "glass", "zh": "玻璃杯" }, { "word": "bottle", "zh": "瓶子" } ] },
+
+    { "word": "mug", "zh": "马克杯", "phonetic": "/mʌɡ/", "partOfSpeech": "noun", "syllables": ["mug"],
+      "examples": [ { "en": "Dad has a big blue mug.", "zh": "爸爸有一个蓝色的大马克杯。" }, { "en": "My mug has a cat on it.", "zh": "我的马克杯上有一只猫。" } ],
+      "related": [ { "word": "cup", "zh": "杯子" }, { "word": "teacup", "zh": "茶杯" }, { "word": "glass", "zh": "玻璃杯" } ] },
+
+    { "word": "coffee cup", "zh": "咖啡杯", "phonetic": "/ˈkɔːfi kʌp/", "partOfSpeech": "noun", "syllables": ["cof", "fee", "cup"],
+      "examples": [ { "en": "Mom's coffee cup is hot.", "zh": "妈妈的咖啡杯很烫。" }, { "en": "The coffee cup is white.", "zh": "咖啡杯是白色的。" } ],
+      "related": [ { "word": "cup", "zh": "杯子" }, { "word": "mug", "zh": "马克杯" }, { "word": "teacup", "zh": "茶杯" } ] },
+
+    { "word": "teacup", "zh": "茶杯", "phonetic": "/ˈtiːkʌp/", "partOfSpeech": "noun", "syllables": ["tea", "cup"],
+      "examples": [ { "en": "Grandma likes her teacup.", "zh": "奶奶喜欢她的茶杯。" }, { "en": "The teacup is small.", "zh": "茶杯很小。" } ],
+      "related": [ { "word": "cup", "zh": "杯子" }, { "word": "mug", "zh": "马克杯" }, { "word": "coffee cup", "zh": "咖啡杯" } ] },
+
+    { "word": "glass", "zh": "玻璃杯", "phonetic": "/ɡlæs/", "partOfSpeech": "noun", "syllables": ["glass"],
+      "examples": [ { "en": "I want a glass of water.", "zh": "我想要一杯水。" }, { "en": "Be careful with the glass.", "zh": "小心玻璃杯。" } ],
+      "related": [ { "word": "cup", "zh": "杯子" }, { "word": "bottle", "zh": "瓶子" }, { "word": "mug", "zh": "马克杯" } ] },
+
+    { "word": "bottle", "zh": "瓶子", "phonetic": "/ˈbɑːtl/", "partOfSpeech": "noun", "syllables": ["bot", "tle"],
+      "examples": [ { "en": "My water bottle is pink.", "zh": "我的水瓶是粉色的。" }, { "en": "The bottle is full.", "zh": "瓶子是满的。" } ],
+      "related": [ { "word": "cup", "zh": "杯子" }, { "word": "glass", "zh": "玻璃杯" } ] },
+
+    { "word": "spoon", "zh": "勺子", "phonetic": "/spuːn/", "partOfSpeech": "noun", "syllables": ["spoon"],
+      "examples": [ { "en": "I eat soup with a spoon.", "zh": "我用勺子喝汤。" }, { "en": "The spoon is in the bowl.", "zh": "勺子在碗里。" } ],
+      "related": [ { "word": "fork", "zh": "叉子" }, { "word": "bowl", "zh": "碗" }, { "word": "chopsticks", "zh": "筷子" }, { "word": "plate", "zh": "盘子" } ] },
+
+    { "word": "fork", "zh": "叉子", "phonetic": "/fɔːrk/", "partOfSpeech": "noun", "syllables": ["fork"],
+      "examples": [ { "en": "I eat cake with a fork.", "zh": "我用叉子吃蛋糕。" }, { "en": "The fork is next to the plate.", "zh": "叉子在盘子旁边。" } ],
+      "related": [ { "word": "spoon", "zh": "勺子" }, { "word": "plate", "zh": "盘子" } ] },
+
+    { "word": "bowl", "zh": "碗", "phonetic": "/boʊl/", "partOfSpeech": "noun", "syllables": ["bowl"],
+      "examples": [ { "en": "I have a bowl of rice.", "zh": "我有一碗米饭。" }, { "en": "The bowl is round.", "zh": "碗是圆的。" } ],
+      "related": [ { "word": "plate", "zh": "盘子" }, { "word": "spoon", "zh": "勺子" }, { "word": "cup", "zh": "杯子" } ] },
+
+    { "word": "chopsticks", "zh": "筷子", "phonetic": "/ˈtʃɑːpstɪks/", "partOfSpeech": "noun", "syllables": ["chop", "sticks"],
+      "examples": [ { "en": "I can use chopsticks.", "zh": "我会用筷子。" }, { "en": "My chopsticks are red.", "zh": "我的筷子是红色的。" } ],
+      "related": [ { "word": "spoon", "zh": "勺子" }, { "word": "bowl", "zh": "碗" } ] },
+
+    { "word": "plate", "zh": "盘子", "phonetic": "/pleɪt/", "partOfSpeech": "noun", "syllables": ["plate"],
+      "examples": [ { "en": "The apple is on the plate.", "zh": "苹果在盘子里。" }, { "en": "Please pass me a plate.", "zh": "请递给我一个盘子。" } ],
+      "related": [ { "word": "bowl", "zh": "碗" }, { "word": "fork", "zh": "叉子" } ] },
+
+    { "word": "black", "zh": "黑色的", "phonetic": "/blæk/", "partOfSpeech": "adjective", "type": "color", "colorHex": "#2B2B33", "syllables": ["black"],
+      "examples": [ { "en": "My cat is black.", "zh": "我的猫是黑色的。" }, { "en": "The night sky is black.", "zh": "夜空是黑色的。" } ],
+      "related": [ { "word": "white", "zh": "白色的" }, { "word": "red", "zh": "红色的" }, { "word": "blue", "zh": "蓝色的" }, { "word": "brown", "zh": "棕色的" } ] },
+
+    { "word": "white", "zh": "白色的", "phonetic": "/waɪt/", "partOfSpeech": "adjective", "type": "color", "colorHex": "#FFFFFF", "syllables": ["white"],
+      "examples": [ { "en": "The snow is white.", "zh": "雪是白色的。" }, { "en": "I have a white rabbit.", "zh": "我有一只白色的兔子。" } ],
+      "related": [ { "word": "black", "zh": "黑色的" }, { "word": "yellow", "zh": "黄色的" }, { "word": "pink", "zh": "粉色的" }, { "word": "green", "zh": "绿色的" } ] },
+
+    { "word": "red", "zh": "红色的", "phonetic": "/red/", "partOfSpeech": "adjective", "type": "color", "colorHex": "#F0484A", "syllables": ["red"],
+      "examples": [ { "en": "The apple is red.", "zh": "苹果是红色的。" }, { "en": "I like my red hat.", "zh": "我喜欢我的红帽子。" } ],
+      "related": [ { "word": "pink", "zh": "粉色的" }, { "word": "blue", "zh": "蓝色的" }, { "word": "yellow", "zh": "黄色的" } ] },
+
+    { "word": "blue", "zh": "蓝色的", "phonetic": "/bluː/", "partOfSpeech": "adjective", "type": "color", "colorHex": "#3E9BFF", "syllables": ["blue"],
+      "examples": [ { "en": "The sky is blue.", "zh": "天空是蓝色的。" }, { "en": "My bike is blue.", "zh": "我的自行车是蓝色的。" } ],
+      "related": [ { "word": "green", "zh": "绿色的" }, { "word": "red", "zh": "红色的" }, { "word": "white", "zh": "白色的" } ] },
+
+    { "word": "yellow", "zh": "黄色的", "phonetic": "/ˈjeloʊ/", "partOfSpeech": "adjective", "type": "color", "colorHex": "#FFD23F", "syllables": ["yel", "low"],
+      "examples": [ { "en": "The banana is yellow.", "zh": "香蕉是黄色的。" }, { "en": "The sun is yellow.", "zh": "太阳是黄色的。" } ],
+      "related": [ { "word": "red", "zh": "红色的" }, { "word": "green", "zh": "绿色的" } ] },
+
+    { "word": "green", "zh": "绿色的", "phonetic": "/ɡriːn/", "partOfSpeech": "adjective", "type": "color", "colorHex": "#4CC777", "syllables": ["green"],
+      "examples": [ { "en": "The grass is green.", "zh": "草是绿色的。" }, { "en": "A frog is green.", "zh": "青蛙是绿色的。" } ],
+      "related": [ { "word": "blue", "zh": "蓝色的" }, { "word": "yellow", "zh": "黄色的" } ] },
+
+    { "word": "pink", "zh": "粉色的", "phonetic": "/pɪŋk/", "partOfSpeech": "adjective", "type": "color", "colorHex": "#FF8FC2", "syllables": ["pink"],
+      "examples": [ { "en": "The pig is pink.", "zh": "小猪是粉色的。" }, { "en": "She has a pink dress.", "zh": "她有一条粉色的裙子。" } ],
+      "related": [ { "word": "red", "zh": "红色的" }, { "word": "white", "zh": "白色的" } ] },
+
+    { "word": "brown", "zh": "棕色的", "phonetic": "/braʊn/", "partOfSpeech": "adjective", "type": "color", "colorHex": "#9A6436", "syllables": ["brown"],
+      "examples": [ { "en": "The bear is brown.", "zh": "小熊是棕色的。" }, { "en": "I like brown bread.", "zh": "我喜欢棕色的面包。" } ],
+      "related": [ { "word": "black", "zh": "黑色的" }, { "word": "yellow", "zh": "黄色的" } ] },
+
+    { "word": "silver", "zh": "银色的", "phonetic": "/ˈsɪlvər/", "partOfSpeech": "adjective", "type": "color", "colorHex": "#C3CAD4", "syllables": ["sil", "ver"],
+      "examples": [ { "en": "The star is silver.", "zh": "星星是银色的。" }, { "en": "I have a silver bell.", "zh": "我有一个银色的铃铛。" } ],
+      "related": [ { "word": "gold", "zh": "金色的" }, { "word": "gray", "zh": "灰色的" } ] },
+
+    { "word": "gold", "zh": "金色的", "phonetic": "/ɡoʊld/", "partOfSpeech": "adjective", "type": "color", "colorHex": "#E8B931", "syllables": ["gold"],
+      "examples": [ { "en": "The crown is gold.", "zh": "王冠是金色的。" }, { "en": "I won a gold star!", "zh": "我得到了一颗金星！" } ],
+      "related": [ { "word": "silver", "zh": "银色的" }, { "word": "yellow", "zh": "黄色的" } ] },
+
+    { "word": "gray", "zh": "灰色的", "phonetic": "/ɡreɪ/", "partOfSpeech": "adjective", "type": "color", "colorHex": "#9AA0A8", "syllables": ["gray"],
+      "examples": [ { "en": "The elephant is gray.", "zh": "大象是灰色的。" }, { "en": "The sky is gray today.", "zh": "今天天空是灰色的。" } ],
+      "related": [ { "word": "silver", "zh": "银色的" }, { "word": "black", "zh": "黑色的" } ] }
+  ]
+}

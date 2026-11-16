@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://word-explorer.local/schema/word.schema.json",
+  "title": "Word",
+  "description": "统一单词模型：识别结果、推荐词、单词本、游戏共用。固件 word_t / 后端 TS 类型都以此为准。",
+  "type": "object",
+  "required": ["word", "zh"],
+  "properties": {
+    "word":         { "type": "string", "maxLength": 39, "description": "英文词形，小写，可含空格（coffee cup）" },
+    "zh":           { "type": "string", "maxLength": 15, "description": "中文释义（儿童能懂）" },
+    "phonetic":     { "type": "string", "maxLength": 47, "description": "IPA 音标，含斜杠，如 /kʌp/" },
+    "partOfSpeech": { "enum": ["noun", "adjective", "verb", "other"] },
+    "type":         { "enum": ["none", "color", "material", "shape", "size", "other"], "description": "属性词类别；物体词为 none" },
+    "colorHex":     { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$", "description": "颜色词的色块" },
+    "syllables":    { "type": "array", "maxItems": 6, "items": { "type": "string", "maxLength": 15 }, "description": "拼读拆解，单音节词给一个元素" },
+    "example":      { "$ref": "#/$defs/example", "description": "单个例句（与识别接口建议结构兼容）" },
+    "examples":     { "type": "array", "maxItems": 3, "items": { "$ref": "#/$defs/example" } },
+    "related":      { "type": "array", "maxItems": 6, "items": { "$ref": "#/$defs/wordRef" } },
+    "iconKey":      { "type": "string", "maxLength": 31, "description": "内置图标包 key；为空时用照片裁图或字母卡" }
+  },
+  "$defs": {
+    "example": {
+      "type": "object",
+      "required": ["en", "zh"],
+      "properties": {
+        "en": { "type": "string", "maxLength": 159 },
+        "zh": { "type": "string", "maxLength": 159 }
+      }
+    },
+    "wordRef": {
+      "type": "object",
+      "required": ["word", "zh"],
+      "properties": {
+        "word": { "type": "string", "maxLength": 39 },
+        "zh":   { "type": "string", "maxLength": 15 }
+      }
+    }
+  }
+}
